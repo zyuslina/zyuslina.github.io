@@ -1,0 +1,12 @@
+ID : Unique Identification number of a baby
+SEX : Sex of the baby {1: FEMALE, 2: MALE, 9: MISSING}
+RACEMOM : Race of mother/child from this set {0: 'UNKNOWN', 1:'OTHER_NON_WHITE', 2:'WHITE', 3:'BLACK', 4:'AMERICAN_INDIAN', 5:'CHINESE', 6:'JAPANESE', 7:'HAWAIIAN', 8:'FILIPINO', 9:'OTHER_ASIAN'}
+RACEDAD : Race of Father from this set {0: 'UNKNOWN', 1:'OTHER_NON_WHITE', 2:'WHITE', 3:'BLACK', 4:'AMERICAN_INDIAN', 5:'CHINESE', 6:'JAPANESE', 7:'HAWAIIAN', 8:'FILIPINO', 9:'OTHER_ASIAN'}
+FEDUC : Father's years of education
+MEDUC : Mother's years of education
+BWEIGHT :  Baby's weight at birth (in pounds)
+GAINED : Weight gained during pregnancy (in pounds)
+CIGNUM : Average number of cigarettes used daily (Mother)
+DRINKNUM: Average number of drinks used daily (mother)
+ANEMIA : Mother has/had anemia {0: FALSE, 1: TRUE}
+DIABETES : Mother has/had diabetes {0: FALSE, 1: TRUE}

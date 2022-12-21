@@ -1,0 +1,88 @@
+---
+title: "PHC410 (Pharmaceutical Biostatistics)"
+subtitle: "Data Analytics 2: Practice (Solution)"
+author: 
+  - <put your name here> <your student ID> - <your group>
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Activity
+
+1. Load `dplyr` and `haven` packages.
+
+My code:
+```{r results='hide', collapse=TRUE}
+#put your code down here after this line
+
+```
+
+2. Import SAS transport file `subs_nhanes1718.xpt` from your `input` folder into your RStudio. Assign the object as `nhanes`.
+
+My code:
+```{r , collapse=TRUE}
+#put your code down here after this line
+
+
+```
+
+
+3. Print the column names of `nhanes`.
+
+My code:
+```{r , collapse=TRUE}
+#put your code down here after this line
+
+
+```
+
+
+4. Using the following names, replace the column names and save your changes to `nhanes`:
+
+    + `RIAGENDR` : Gender
+    + `DMDCITZN` : Citizenship
+    + `DMDHREDZ` : EducationL
+    + `DMDHRMAZ` : MaritalS
+    + `DMDHRAGZ` : Age
+    + `INDFMPIR` : PovertyR
+
+My code:
+```{r collapse=TRUE}
+#put your code down here after this line
+
+
+```
+
+
+5. Based on the description in `nhanes_desc.txt`, recode `Gender`, `Citizenship`, `EducationL` and `MaritalS`.
+
+My code:
+```{r collapse=TRUE}
+#put your code down here after this line
+
+```
+
+6. Display the sequence no, education level and poverty-income ratio for the first 10 male participants.
+My code:
+```{r collapse=TRUE}
+#put your code down here after this line
+
+```
+
+7. Count the number of female and male in `nhanes`, grouped by education level.
+    
+My code:
+```{r collapse=TRUE}
+#put your code down here after this line
+
+```
+
+8. Count the number of rows in `nhanes` with no missing values. _Hint: use complete.cases()_
+    
+My code:
+```{r collapse=TRUE}
+#put your code down here after this line
+
+```

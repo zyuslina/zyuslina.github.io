@@ -1,0 +1,6 @@
+Weights of 72 young female patients, before and after receiving three
+possible therapies.
+
+Treat: Type of treatment {CBT: cognitive behavioural therapy, FT: family therapy, Cont: control}
+Prewt: Weight before treatment (in pounds)
+Postwt: Weight after treatment (in pounds)

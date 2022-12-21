@@ -1,0 +1,9 @@
+- age (Age in years)
+- sex : (1 = male, 0 = female)
+- cp (Chest Pain Type): [0: Typical Angina, 1: Atypical Angina, 2: Non-Anginal Pain, 3: Asymptomatic]
+- trestbps (Resting Blood Pressure in mm/hg )
+- chol (Serum Cholesterol in mg/dl)
+- fbs (Fasting Blood Sugar > 120 mg/dl): [0 = no, 1 = yes]
+- thalach (maximum heart rate achieved)
+- exang (Exercise Induced Angina): [1 = yes, 0 = no]
+- target: [0 = absence, 1 = presence]

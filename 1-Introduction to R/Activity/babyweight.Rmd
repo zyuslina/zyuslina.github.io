@@ -1,0 +1,113 @@
+---
+title: "PHC410 (Pharmaceutical Biostatistics)"
+subtitle: "Introduction to R"
+author: 
+  - <put your name here> <your student ID> - <your group>
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+# Activity
+
+1. Import a csv file named `sbs_babyweight.csv` using `read.csv` function. Assign an object called `babyweight` to store the data.
+
+My code:
+```{r}
+#put your code down here after this line
+
+
+```
+
+
+2. List the names of variables in object `babyweight` using `names()`.
+
+My code:
+```{r}
+#put your code down here after this line
+
+```
+
+
+3. What is the data structure of `babyweight`?
+
+Answer: <Put your answer here>
+
+My code:
+```{r}
+#put your code down here after this line
+
+```
+
+
+4. Use `str()` to observe the followings:
+
+Answer:
+
+    1. The number of observations: <Put your answer here>
+    2. The number of variables: <Put your answer here>
+    3. The type of variables: <Put your answer here>
+
+My code:
+```{r}
+#put your code down here after this line
+
+```
+&nbsp;
+
+5. Read the description of the data file listed in `sbs_babyweight_desc.txt`. Based on the description, which variables should have the following data types:
+
+Answer:
+
++ Factor: <Put your answer here>
++ Logical: <Put your answer here>
+
+
+6. Convert the variables listed in previous question into factor using `as.factor()`. 
+    
+My code:
+```{r}
+#put your code down here after this line
+
+```
+
+
+7. Convert logical variables listed in question 5 using `as.logical()`. 
+
+My code:
+```{r}
+#put your code down here after this line
+
+```
+
+
+8. Use `head()` to display the first 10 observations of `babyweight`. What is the baby's gender of the 7th observation? 
+
+Answer: <Put your answer here>
+
+My code:
+```{r}
+#put your code down here after this line
+
+```
+
+
+9. Display the last 5 observations of `babyweight` using `tail()`. Was the mother of the last observation diabetic during pregnancy?
+
+Answer: <Put your answer here>
+
+My code:
+```{r}
+#put your code down here after this line
+
+```
+
+10. Write `babyweight` into a new csv file named `mybabyweight.csv` using `write.csv()`. Do not display the row.names. 
+
+```{r}
+#put your code down here after this line
+
+```
+
+
+    

@@ -1,0 +1,37 @@
+---
+title: "PHC410 (Pharmaceutical Biostatistics)"
+subtitle: "Data Analytics 3: Practice"
+author: 
+  - <put your name here> <your student ID> - <your group>
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+1. Using the description in `cvd_train_desc.txt`, recode `cardio`. Don't forget to load required libraries.
+```{r collapse=TRUE}
+
+```
+
+2. Does the systolic blood pressures differ between patients with and without cardiovascular disease? State your hypothesis, perform appropriate steps and interpret your findings
+
+a) Hypothesis:  
+
++  H$_{0}$: (Put your null hypothesis) 
++  H$_{a}$: (Put your alternative hypothesis)
+
+
+b) Perform appropriate steps
+```{r collapse=TRUE}
+
+
+
+
+
+```
+
+
+c) Interpret your findings  
+

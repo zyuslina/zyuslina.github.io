@@ -1,0 +1,13 @@
+- ID number 
+- age (in days)
+- gender [0 = men, 1 = women]
+- height (in cm)
+- weight (in kg)
+- ap_hi (systolic blood pressure)
+- ap_lo (diastolic blood pressure)
+- cholesterol [1: normal, 2: above normal, 3: well above normal] 
+- gluc - Glucose [1: normal, 2: above normal, 3: well above normal]
+- smoke - Smoking Person [0 = FALSE, 0 = TRUE]
+- alco - Alcohol Intake [0 = FALSE, 0 = TRUE] 
+- active - Physical Activity [0 = FALSE, 0 = TRUE]
+- cardio - Absence or Presence of Cardiovascular Disease [0 = FALSE, 0 = TRUE]
